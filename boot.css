@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+#navb{
+    background-color:#191919;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+  
+}
+#navb i{
+    background-color: aliceblue;
+}
+#navb a{
+    
+    color:whitesmoke;
+    
+    transition: 1s;
+}
+#navb a:hover{
+    color:black;
+    
+}
+.row1{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 420px)  {
+    .r2c1 h1{
+        font-size: 25px;
+    
+
+    }
+    .r2c1{
+        padding-top: 20%;
+        text-align: center;
+    }
+
+    
+}
+
+#row2{
+    width: 100%;
+    justify-content: space-between;
+    height: 700px; 
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(imagess/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #f0f8ff;
+    padding-top: 20%;
+    transition: all 7s ease;
+    transition-duration: 5s;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+   
+}
+.down{
+    text-align: center;
+    justify-content: center;
+    margin-top: 8%;
+    font-size: 40px;
+    animation: ex 2s infinite;
+}
+@keyframes ex{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    10%{
+        transform: translateY(-5px);
+        opacity: 0.2;
+    }
+    20%{
+        transform: translateY(5px);
+    }
+    30%{
+        transform: translateY(0px);
+    }
+    
+    50%{
+        transform: translateY(10px);
+        opacity: 0.5;
+    }
+    70%{
+        transform: translateY(7px);
+    }
+    80%{
+        transform: translateY(15px);
+    }
+    90%{
+        transform: translateY(8px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+    
+}
+@keyframes exa {
+    0%{
+        transform: translatex(200px);
+        opacity: 0;
+    }
+    
+    100%{
+       
+        transform: translateX(0px);
+        opacity: 1;
+        
+       
+    }
+}
+.r2c1{
+    animation: exa 2s ease;
+    
+}
+
+#row2 h1 ,span{
+    text-shadow:4px 4px 4px black;
+    color: orangered;
+    
+}
+
+
+#row3{
+    
+    background-color:#191919;
+    width: 100%;
+    
+    min-height: 600px;
+    
+}
+
+
+
+#img{
+    width: 100%;
+    height: 500px;
+    padding: 5%;
+    animation: exam 6s ease;
+    box-shadow: 6px 5px 5px aliceblue;
+}
+@keyframes exam {
+    0%{
+       
+        transform: translatex(-100%);
+       
+    }
+    
+    100%{
+        
+       
+        transform: translateY(50);
+       
+    }
+    
+}
+
+
+
+#hi{
+    animation: examt 6s ease;
+    justify-content: space-between;
+    letter-spacing: 5px;
+    color:whitesmoke;
+    
+    padding: 2%;
+  
+}
+#hi label{
+    font-size: larger;
+    color: orangered;
+}
+@keyframes examt {
+    0%{
+       
+        transform: translatex(200%);
+       
+    }
+    
+    100%{
+        
+        transform: translateY(50);
+       
+    }
+    
+}
+
+.pro{
+    width: 100%;
+    display: block;
+    background-color: black;
+    
+}
+
+#row4 {
+    width: 50%;
+    background-color:red;
+    color:whitesmoke;
+    
+    text-decoration: nones;
+    height: 350px;
+    letter-spacing: 2px;
+    padding: 2%;
+    font-size: larger;
+    float: right;
+    
+}
+
+
+#row4 label{
+    font-size: 20px;
+    color: darkorange;
+}
+#row4 h1 {
+    font-size: 30px;
+}
+#row5 h1 {
+    font-size: 30px;
+}
+
+#row5 {
+    padding: 1%;
+    width: 50%;
+
+    height: 350px;
+    overflow: hidden;
+    background-color:  blue;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    
+    
+}
+   
+@media screen and (max-width: 420px)  {
+    #row4{
+        width: 100%;
+        height:400px;
+        float: none;
+        
+       }
+    #row5{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .pro{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+.row6{
+    padding: 5%;
+    width: 100%;
+   background-color: #191919;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    text-align: center;
+     
+}
+#row7{
+    width: 100%;
+    background-color: #191919;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.row6 a{
+    font-size: large;
+}
